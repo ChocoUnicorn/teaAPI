@@ -1,0 +1,14 @@
+body {
+    
+    background-image: 'img/professional-1-background-zoom-or-teams-unsplash.jpg';
+}
+
+.topHeader {
+    position: absolute;
+    bottom:50px;
+    right: 120px;
+    background-color: transparent;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
