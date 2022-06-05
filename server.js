@@ -1,8 +1,6 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const { request } = require('express')
-const { response } = require('express')
 const PORT = 8000
 
 
