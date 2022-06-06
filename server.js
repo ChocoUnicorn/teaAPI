@@ -108,9 +108,7 @@ app.use(cors())
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
 })
-app.get('/', (request, response) => {
-    response.sendFile(__dirname + '/css/style.css')
-})
+
 app.get('/api', (request, response) => {
     response.json(tea)
 })
